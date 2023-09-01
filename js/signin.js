@@ -21,8 +21,8 @@ loginPageBtn.onclick = () => {
     signinPage.style.display = 'none'
     resetPage.style.display = 'none'
     loginPageBtn.style.backgroundColor = '#00a17c'
-    signinPageBtn.style.backgroundColor = '#ffc766'
-    resetPageBtn.style.backgroundColor = '#ffc766'
+    signinPageBtn.style.backgroundColor = '#36415d'
+    resetPageBtn.style.backgroundColor = '#36415d'
 }
 
 signinPageBtn.onclick = () => {
@@ -30,8 +30,8 @@ signinPageBtn.onclick = () => {
     loginPage.style.display = 'none'
     resetPage.style.display = 'none'
     signinPageBtn.style.backgroundColor = '#00a17c'
-    loginPageBtn.style.backgroundColor = '#ffc766'
-    resetPageBtn.style.backgroundColor = '#ffc766'
+    loginPageBtn.style.backgroundColor = '#36415d'
+    resetPageBtn.style.backgroundColor = '#36415d'
 }
 
 resetPageBtn.onclick = () => {
@@ -39,8 +39,8 @@ resetPageBtn.onclick = () => {
     signinPage.style.display = 'none'
     loginPage.style.display = 'none'
     resetPageBtn.style.backgroundColor = '#00a17c'
-    signinPageBtn.style.backgroundColor = '#ffc766'
-    loginPageBtn.style.backgroundColor = '#ffc766'
+    signinPageBtn.style.backgroundColor = '#36415d'
+    loginPageBtn.style.backgroundColor = '#36415d'
 }
 
 // // --Login page--
