@@ -2,10 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home | M's Gadgets</title>
+    <script defer src="./js/script.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
 </head>
 <body>
-    
+    <!-- Navbar Section -->
+    <nav class="navbar" id="navbar"> 
+        <div class="navbar-container">
+            <a href="/" id="navbar-logo">
+                <i class="fas fa-gear"></i>M's Gadgets
+            </a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="/index.html" class="navbar-links">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="store.html" class="navbar-links">Store</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="about.html" class="navbar-links">About</a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="blog.html" class="navbar-links">Blog</a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="news.html" class="navbar-links">News</a>
+                </li>
+                <li id="acc-output" class="navbar-item">
+                    <!-- Account Page appears here if you've signed in -->
+                </li>
+                <li class="navbar-btn">
+                    <a href="signup.html" class="navbar-button">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Contact Btn-->
+        <button class="contact-btn"><i class="i fa fa-phone"></i></button>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <div class="contact-header">
+                <button id="exit-contact"><i class="i fa fa-x"></i></button>
+            <h2>Contact Us</h2>
+            </div>
+            <form action="submit" class="contact-container">
+                <div class="email-container">
+                    <input type="email" name="" id="email-input" placeholder="email" required>
+                </div>
+                <div class="pass-container">
+                    <input type="password" name="" id="pass-input" placeholder="password" required>
+                </div>
+                <div class="text-container">
+                    </i><textarea name="" id="text-input" cols="30" rows="5" class="message-input" placeholder="Write your message here" required></textarea>
+                </div>
+                <button id="contact-btn" type="submit">Send  <i class="i fa fa-gear"></i></button>
+            </form>
+        </div>
+                
+        <!-- Chatbot Btn-->
+        <button class="chat-btn"><i class="i fa fa-comment"></i>Send us a message</button>
+    </nav>
 </body>
 </html>
